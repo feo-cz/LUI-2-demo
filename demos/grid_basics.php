@@ -28,11 +28,10 @@
 <br />
 <div class="container fluid demo">
 	this is <em>.container.fluid</em>
+	<br />
+	<strong>.container-fluid has been removed from LUI2</strong>
 </div>
 <br />
-<div class="container-fluid demo">
-	this is <em>.container-fluid</em>
-</div>
 <h2 class="demo">Containers with maximum width</h2>
 <div class="container max_2k demo">
 	this is <em>.container.max_2k</em>

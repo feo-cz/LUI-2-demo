@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 
-	<?php if(0){ ?>
+	<?php if(1){ ?>
 		<link rel="stylesheet/less" href="/demo.less" />
 		<script>
 			less = {
@@ -20,14 +20,16 @@
 				relativeUrls: false
 			};
 		</script>
-		<script src="/lui/js/less/less.min.js" type="text/javascript"></script>
+		<script src="/js/less/less.min.js" type="text/javascript"></script>
 	<?php } else { ?>
 		<!-- COMPILED STYLES -->
 		<link rel="stylesheet" href="/demo.css" />
 	<?php } ?>
 
-	<script src="/lui/js/jquery/jquery-2.2.0.min.js"></script>
-	<script src="/lui/js/jquery/jquery-ui.js"></script>
+	<script src="/js/jquery/jquery-2.2.0.min.js"></script>
+	<script src="/js/jquery/jquery-ui.js"></script>
+
+	<!-- TODO: MOVE INTO COMPONENT FOLDER -->
 	<script src="/lui/js/jquery/ui/ui.js"></script>
 </head>
 <body>
