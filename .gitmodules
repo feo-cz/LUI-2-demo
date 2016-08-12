@@ -1,0 +1,4 @@
+[submodule "lui2"]
+	path = lui2
+	url = https://github.com/Foreveryone-cz/LUI-2
+	branch = master
