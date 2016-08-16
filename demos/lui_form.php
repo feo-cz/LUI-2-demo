@@ -17,29 +17,32 @@
 				
 				
 <pre data-title="Source:">
-&lt;form class=&quot;<span class="highlight">lui_form</span>&quot;&gt;
-	&lt;div class=&quot;<span class="highlight">item</span> row va-center&quot;&gt;
-		&lt;div class=&quot;col-xs-12 col-md-3&quot;&gt;
-			&lt;label class=&quot;<span class="highlight">label</span> sm-block&quot;&gt;Input&lt;/label&gt;
-		&lt;/div&gt;
-		&lt;div class=&quot;col-xs-12 col-md-7&quot;&gt;
-			&lt;div class=&quot;<span class="highlight">input</span>&quot;&gt;
-				&lt;input type=&quot;text&quot; /&gt;
-			&lt;/div&gt;
-		&lt;/div&gt;
-	&lt;/div&gt;
-&lt;/form&gt;
+TODO
 
 </pre>
 
 <form class="lui_form">
 	<div class="item row va-center">
-		<div class="col-md-3 col-sm-12 col-xs-12">
-			<label class="label sm-block">Input</label>
+		<div class="col-xs-12 col-md-4">
+			<label class="label xs-block md-inline">Input</label>
 		</div>
-		<div class="col-md-7 col-sm-12 col-xs-12">
-			<div class="input">
+		<div class="col-xs-12 col-md-6">
+			<div class="value">
 				<input type="text" />
+			</div>
+		</div>
+	</div>
+</form>
+
+
+<form class="lui_form">
+	<div class="item row va-top">
+		<div class="col-xs-12 col-md-4">
+			<label class="label xs-block md-inline">Input</label>
+		</div>
+		<div class="col-xs-12 col-md-6">
+			<div class="value">
+				<textarea rows="10" cols="10"></textarea>
 			</div>
 		</div>
 	</div>
@@ -84,10 +87,10 @@
 <form class="lui_form">
 	<div class="item row va-center">
 		<div class="col-md-3 col-sm-12 col-xs-12">
-			<label class="label sm-block">Input postfix demo</label>
+			<label class="label sm-block md-inline">Input postfix demo</label>
 		</div>
 		<div class="col-md-5 col-sm-12 col-xs-12">
-			<div class="input postfix">
+			<div class="value postfix">
 				<input type="text" placeholder="ololololo" />
 				<div class="lui_postfix">CZK</div>
 			</div>
@@ -95,10 +98,10 @@
 	</div>
 	<div class="item row va-center">
 		<div class="col-md-3 col-sm-12 col-xs-12">
-			<label class="label sm-block">Input prefix demo</label>
+			<label class="label sm-block md-inline">Input prefix demo</label>
 		</div>
 		<div class="col-md-5 col-sm-12 col-xs-12">
-			<div class="input prefix">
+			<div class="value prefix">
 				<div class="lui_prefix">CZK</div>
 				<input type="text" placeholder="ololololo" />
 			</div>
@@ -106,10 +109,10 @@
 	</div>
 	<div class="item row va-center">
 		<div class="col-md-3 col-sm-12 col-xs-12">
-			<label class="label sm-block">Input postfix demo (FA)</label>
+			<label class="label sm-block md-inline">Input postfix demo (FA)</label>
 		</div>
 		<div class="col-md-5 col-sm-12 col-xs-12">
-			<div class="input postfix">
+			<div class="value postfix">
 				<input type="text" placeholder="ololololo" />
 				<div class="lui_postfix fa_a_file"></div>
 			</div>
@@ -117,10 +120,10 @@
 	</div>
 	<div class="item row va-center">
 		<div class="col-md-3 col-sm-12 col-xs-12">
-			<label class="label sm-block">Input prefix demo (FA)</label>
+			<label class="label sm-block md-inline">Input prefix demo (FA)</label>
 		</div>
 		<div class="col-md-5 col-sm-12 col-xs-12">
-			<div class="input prefix">
+			<div class="value prefix">
 				<div class="lui_prefix fa_b_search"></div>
 				<input type="text" placeholder="ololololo" />
 			</div>
@@ -128,10 +131,10 @@
 	</div>
 	<div class="item row va-center">
 		<div class="col-md-3 col-sm-12 col-xs-12">
-			<label class="label sm-block">Input postfix demo (as button)</label>
+			<label class="label sm-block md-inline">Input postfix demo (as button)</label>
 		</div>
 		<div class="col-md-5 col-sm-12 col-xs-12">
-			<div class="input postfix">
+			<div class="value postfix">
 				<input type="text" placeholder="ololololo" />
 				<a href="#" class="lui_postfix">add file</a>
 			</div>
@@ -139,10 +142,10 @@
 	</div>
 	<div class="item row va-center">
 		<div class="col-md-3 col-sm-12 col-xs-12">
-			<label class="label sm-block">Input prefix demo (as button)</label>
+			<label class="label sm-block md-inline">Input prefix demo (as button)</label>
 		</div>
 		<div class="col-md-5 col-sm-12 col-xs-12">
-			<div class="input prefix">
+			<div class="value prefix">
 				<a href="#" class="lui_prefix fa_b_search"></a>
 				<input type="text" placeholder="ololololo" />
 			</div>
@@ -184,10 +187,10 @@
 <form class="lui_form">
 	<div class="item row va-center">
 		<div class="col-md-3 col-sm-12 col-xs-12">
-			<label class="label sm-block">jQuery Select</label>
+			<label class="label sm-block md-inline">jQuery Select</label>
 		</div>
 		<div class="col-md-3 col-sm-12 col-xs-12">
-			<div class="input">
+			<div class="value">
 				<select class="make_lui_select">
 					<option>Lorem ipsum dolor option in select</option>
 					<option>option in select</option>
@@ -264,7 +267,7 @@
 <form class="lui_form">
 	<div class="item row va-center">
 		<div class="col-md-3 col-sm-12 col-xs-12">
-			<label class="label sm-block">Checkbox</label>
+			<label class="label sm-block md-inline">Checkbox</label>
 		</div>
 		<div class="col-md-9 col-sm-12 col-xs-12">
 			<label class="lui_check">
@@ -275,31 +278,64 @@
 	</div>
 	<div class="item row va-top">
 		<div class="col-md-3 col-sm-12 col-xs-12">
-			<label class="label sm-block">Checks list</label>
+			<label class="label sm-block md-inline">Checks list</label>
 		</div>
 		<div class="col-md-9 col-sm-12 col-xs-12">
 			<div class="lui_check_list">
 				<div>
-					<label class="lui_check confirm">
+					<label class="lui_check positive">
 						<input type="checkbox" tabindex="0" />
 						<span>First checkbox</span>
 					</label>
 				</div>
 				<div>
-					<label class="lui_check delete">
+					<label class="lui_check negative">
 						<input type="checkbox" tabindex="0" />
 						<span>Second checkbox</span>
 					</label>
 				</div>
 				<div>
-					<label class="lui_check confirm">
+					<label class="lui_check warning">
 						<input type="checkbox" tabindex="0" />
 						<span>First checkbox</span>
 					</label>
 				</div>
 				<div>
-					<label class="lui_check delete">
+					<label class="lui_check notice">
 						<input type="checkbox" tabindex="0" />
+						<span>Second checkbox</span>
+					</label>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="item row va-top">
+		<div class="col-md-3 col-sm-12 col-xs-12">
+			<label class="label sm-block md-inline">Checks list</label>
+		</div>
+		<div class="col-md-9 col-sm-12 col-xs-12">
+			<div class="lui_check_list">
+				<div>
+					<label class="lui_check positive">
+						<input type="checkbox" tabindex="0" checked />
+						<span>First checkbox</span>
+					</label>
+				</div>
+				<div>
+					<label class="lui_check negative">
+						<input type="checkbox" tabindex="0" checked />
+						<span>Second checkbox</span>
+					</label>
+				</div>
+				<div>
+					<label class="lui_check warning">
+						<input type="checkbox" tabindex="0" checked />
+						<span>First checkbox</span>
+					</label>
+				</div>
+				<div>
+					<label class="lui_check notice">
+						<input type="checkbox" tabindex="0" checked />
 						<span>Second checkbox</span>
 					</label>
 				</div>
@@ -367,7 +403,7 @@
 <form class="lui_form">
 	<div class="item row va-center">
 		<div class="col-md-3 col-sm-12 col-xs-12">
-			<label class="label sm-block">Radio</label>
+			<label class="label sm-block md-inline">Radio</label>
 		</div>
 		<div class="col-md-9 col-sm-12 col-xs-12">
 			<label class="lui_radio">
@@ -378,7 +414,7 @@
 	</div>
 	<div class="item row va-ctop">
 		<div class="col-md-3 col-sm-12 col-xs-12">
-			<label class="label sm-block">Radio list</label>
+			<label class="label sm-block md-inline">Radio list</label>
 		</div>
 		<div class="col-md-9 col-sm-12 col-xs-12">
 			<div class="lui_radio_list">
@@ -411,95 +447,83 @@
 
 
 <div class="lui_form">
+
 	<div class="item row va-center">
 		<div class="col-md-3 col-sm-12 col-xs-12">
-			<label class="label sm-block">Static slider (not working yet)</label>
-		</div>
-		<div class="col-md-9 col-sm-12 col-xs-12">
-			<div class="lui_input_range">
-				<div class="range">
-					<div class="ranger from" data-value="0 CZK"></div>
-					<div class="ranger to" style="left:100px" data-value="5000 CZK"></div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="item row va-center">
-		<div class="col-md-3 col-sm-12 col-xs-12">
-			<label class="label sm-block">Input</label>
+			<label class="label sm-block md-inline">Input</label>
 		</div>
 		<div class="col-md-7 col-sm-12 col-xs-12">
-			<div class="input">
+			<div class="value">
 				<input type="text" />
 			</div>
 		</div>
 	</div>
 	<div class="item row va-center">
 		<div class="col-md-3 col-sm-12 col-xs-12">
-			<label class="label sm-block">Input w/ placeholder</label>
+			<label class="label sm-block md-inline">Input w/ placeholder</label>
 		</div>
 		<div class="col-md-7 col-sm-12 col-xs-12">
-			<div class="input">
+			<div class="value">
 				<input type="text" placeholder="Lorem ipsum dolor" />
 			</div>
 		</div>
 	</div>
 	<div class="item row va-center">
 		<div class="col-md-3 col-sm-12 col-xs-12">
-			<label class="label sm-block">Input w/ placeholder readonly</label>
+			<label class="label sm-block md-inline">Input w/ placeholder readonly</label>
 		</div>
 		<div class="col-md-7 col-sm-12 col-xs-12">
-			<div class="input">
+			<div class="value">
 				<input type="text" placeholder="Lorem ipsum dolor" readonly="readonly" />
 			</div>
 		</div>
 	</div>
 	<div class="item row va-center">
 		<div class="col-md-3 col-sm-12 col-xs-12">
-			<label class="label sm-block">Input w/ placeholder disabled</label>
+			<label class="label sm-block md-inline">Input w/ placeholder disabled</label>
 		</div>
 		<div class="col-md-7 col-sm-12 col-xs-12">
-			<div class="input">
+			<div class="value">
 				<input type="text" placeholder="Lorem ipsum dolor" disabled="disabled" />
 			</div>
 		</div>
 	</div>
 	<div class="item row va-center">
 		<div class="col-md-3 col-sm-12 col-xs-12">
-			<label class="label sm-block">Input w/ value</label>
+			<label class="label sm-block md-inline">Input w/ value</label>
 		</div>
 		<div class="col-md-7 col-sm-12 col-xs-12">
-			<div class="input">
+			<div class="value">
 				<input type="text" value="This is value" />
 			</div>
 		</div>
 	</div>
 	<div class="item row va-center">
 		<div class="col-md-3 col-sm-12 col-xs-12">
-			<label class="label sm-block">Input w/ value readonly</label>
+			<label class="label sm-block md-inline">Input w/ value readonly</label>
 		</div>
 		<div class="col-md-7 col-sm-12 col-xs-12">
-			<div class="input">
+			<div class="value">
 				<input type="text" value="This is value" readonly="readonly" />
 			</div>
 		</div>
 	</div>
 	<div class="item row va-center">
 		<div class="col-md-3 col-sm-12 col-xs-12">
-			<label class="label sm-block">Input w/ value disabled</label>
+			<label class="label sm-block md-inline">Input w/ value disabled</label>
 		</div>
 		<div class="col-md-7 col-sm-12 col-xs-12">
-			<div class="input">
+			<div class="value">
 				<input type="text" value="This is value" disabled="disabled" />
 			</div>
 		</div>
 	</div>
 	<div class="item row va-center">
 		<div class="col-md-3 col-sm-12 col-xs-12">
-			<label class="label sm-block">Input postfix demo</label>
+			<label class="label sm-block md-inline">Input postfix demo</label>
 		</div>
 		<div class="col-md-7 col-sm-12 col-xs-12">
-			<div class="input postfix">
+			<div class="value postfix">
 				<input type="text" placeholder="ololololo" />
 				<div class="lui_postfix">CZK</div>
 			</div>
@@ -507,10 +531,10 @@
 	</div>
 	<div class="item row va-center">
 		<div class="col-md-3 col-sm-12 col-xs-12">
-			<label class="label sm-block required">Longer postfix</label>
+			<label class="label sm-block md-inline required">Longer postfix</label>
 		</div>
 		<div class="col-md-5 col-sm-12 col-xs-12">
-			<div class="input postfix">
+			<div class="value postfix">
 				<input type="text" placeholder="ololololo" />
 				<div class="lui_postfix">LOREM IPS</div>
 			</div>
@@ -518,10 +542,10 @@
 	</div>
 	<div class="item row va-center">
 		<div class="col-md-3 col-sm-12 col-xs-12">
-			<label class="label sm-block">Read only with prefix</label>
+			<label class="label sm-block md-inline">Read only with prefix</label>
 		</div>
 		<div class="col-md-5 col-sm-12 col-xs-12">
-			<div class="input prefix">
+			<div class="value prefix">
 				<div class="lui_prefix">TEST</div>
 				<input type="text" value="read only" readonly="readonly" />
 			</div>
@@ -529,10 +553,10 @@
 	</div>
 	<div class="item row va-center">
 		<div class="col-md-3 col-sm-12 col-xs-12">
-			<label class="label sm-block">Select</label>
+			<label class="label sm-block md-inline">Select</label>
 		</div>
 		<div class="col-md-3 col-sm-12 col-xs-12">
-			<div class="input">
+			<div class="value">
 				<select>
 					<option>Lorem ipsum dolor option in select</option>
 					<option>option in select</option>
@@ -541,17 +565,17 @@
 			</div>
 		</div>
 		<div class="col-md-6 col-sm-12 col-xs-12">
-			<div class="info">
+			<div class="status">
 				Lorem ipsum dolor
 			</div>
 		</div>
 	</div>
 	<div class="item row va-center">
 		<div class="col-md-3 col-sm-12 col-xs-12">
-			<label class="label sm-block">Select</label>
+			<label class="label sm-block md-inline">Select</label>
 		</div>
 		<div class="col-md-3 col-sm-12 col-xs-12">
-			<div class="input">
+			<div class="value">
 				<select>
 					<option>Lorem ipsum dolor option in select</option>
 					<option>option in select</option>
@@ -560,17 +584,17 @@
 			</div>
 		</div>
 		<div class="col-md-6 col-sm-12 col-xs-12">
-			<div class="info error fa_b_times">
+			<div class="status negative fa_b_times">
 				Lorem ipsum dolor
 			</div>
 		</div>
 	</div>
 	<div class="item row va-center">
 		<div class="col-md-3 col-sm-12 col-xs-12">
-			<label class="label sm-block">Select</label>
+			<label class="label sm-block md-inline">Select</label>
 		</div>
 		<div class="col-md-3 col-sm-12 col-xs-12">
-			<div class="input">
+			<div class="value">
 				<select>
 					<option>Lorem ipsum dolor option in select</option>
 					<option>option in select</option>
@@ -579,17 +603,17 @@
 			</div>
 		</div>
 		<div class="col-md-6 col-sm-12 col-xs-12">
-			<div class="info confirm fa_b_check">
+			<div class="status positive fa_b_check">
 				Lorem ipsum dolor
 			</div>
 		</div>
 	</div>
 	<div class="item row va-center">
 		<div class="col-md-3 col-sm-12 col-xs-12">
-			<label class="label sm-block">Select</label>
+			<label class="label sm-block md-inline">Select</label>
 		</div>
 		<div class="col-md-3 col-sm-12 col-xs-12">
-			<div class="input">
+			<div class="value">
 				<select>
 					<option>Lorem ipsum dolor option in select</option>
 					<option>option in select</option>
@@ -598,7 +622,27 @@
 			</div>
 		</div>
 		<div class="col-md-6 col-sm-12 col-xs-12">
-			<div class="info warning fa_b_warning">
+			<div class="status warning fa_b_warning">
+				Lorem ipsum dolor
+			</div>
+		</div>
+	</div>
+
+	<div class="item row va-center">
+		<div class="col-md-3 col-sm-12 col-xs-12">
+			<label class="label sm-block md-inline">Select</label>
+		</div>
+		<div class="col-md-3 col-sm-12 col-xs-12">
+			<div class="value">
+				<select>
+					<option>Lorem ipsum dolor option in select</option>
+					<option>option in select</option>
+					<option>olololo</option>
+				</select>
+			</div>
+		</div>
+		<div class="col-md-6 col-sm-12 col-xs-12">
+			<div class="status notice fa_b_info">
 				Lorem ipsum dolor
 			</div>
 		</div>
@@ -607,10 +651,10 @@
 	
 	<div class="item row va-center">
 		<div class="col-md-3 col-sm-12 col-xs-12">
-			<label class="label sm-block">jQuery Select</label>
+			<label class="label sm-block md-inline">jQuery Select</label>
 		</div>
 		<div class="col-md-3 col-sm-12 col-xs-12">
-			<div class="input">
+			<div class="value">
 				<select class="make_lui_select">
 					<option>Lorem ipsum dolor option in select</option>
 					<option>option in select</option>
@@ -623,7 +667,7 @@
 	
 	<div class="item row va-center">
 		<div class="col-md-3 col-sm-12 col-xs-12">
-			<label class="label sm-block">Checkbox1</label>
+			<label class="label sm-block md-inline">Checkbox1</label>
 		</div>
 		<div class="col-md-9 col-sm-12 col-xs-12">
 			<label class="lui_check">
@@ -634,7 +678,7 @@
 	</div>
 	<div class="item row va-center">
 		<div class="col-md-3 col-sm-12 col-xs-12">
-			<label class="label sm-block">Checkbox</label>
+			<label class="label sm-block md-inline">Checkbox</label>
 		</div>
 		<div class="col-md-9 col-sm-12 col-xs-12">
 			<label class="lui_check info">
@@ -645,7 +689,7 @@
 	</div>
 	<div class="item row va-center">
 		<div class="col-md-3 col-sm-12 col-xs-12">
-			<label class="label sm-block">Checkbox</label>
+			<label class="label sm-block md-inline">Checkbox</label>
 		</div>
 		<div class="col-md-9 col-sm-12 col-xs-12">
 			<label class="lui_check confirm">
@@ -656,7 +700,7 @@
 	</div>
 	<div class="item row va-center">
 		<div class="col-md-3 col-sm-12 col-xs-12">
-			<label class="label sm-block">Checkbox</label>
+			<label class="label sm-block md-inline">Checkbox</label>
 		</div>
 		<div class="col-md-9 col-sm-12 col-xs-12">
 			<label class="lui_check error">
@@ -667,7 +711,7 @@
 	</div>
 	<div class="item row va-center">
 		<div class="col-md-3 col-sm-12 col-xs-12">
-			<label class="label sm-block">Checkbox</label>
+			<label class="label sm-block md-inline">Checkbox</label>
 		</div>
 		<div class="col-md-9 col-sm-12 col-xs-12">
 			<label class="lui_check warning">
@@ -678,7 +722,7 @@
 	</div>
 	<div class="item row va-center">
 		<div class="col-md-3 col-sm-12 col-xs-12">
-			<label class="label sm-block">Checkbox simple</label>
+			<label class="label sm-block md-inline">Checkbox simple</label>
 		</div>
 		<div class="col-md-9 col-sm-12 col-xs-12">
 			<label class="lui_check">
@@ -689,7 +733,7 @@
 	</div>
 	<div class="item row va-top">
 		<div class="col-md-3 col-sm-12 col-xs-12">
-			<label class="label sm-block">Checks list</label>
+			<label class="label sm-block md-inline">Checks list</label>
 		</div>
 		<div class="col-md-9 col-sm-12 col-xs-12">
 			<div class="lui_check_list">
@@ -723,7 +767,7 @@
 	
 	<div class="item row va-center">
 		<div class="col-md-3 col-sm-12 col-xs-12">
-			<label class="label sm-block">Checks list inline</label>
+			<label class="label sm-block md-inline">Checks list inline</label>
 		</div>
 		<div class="col-md-9 col-sm-12 col-xs-12">
 			<div class="lui_check_list inline">
@@ -756,7 +800,7 @@
 	</div>
 	<div class="item row va-center">
 		<div class="col-md-3 col-sm-12 col-xs-12">
-			<label class="label sm-block">Radio</label>
+			<label class="label sm-block md-inline">Radio</label>
 		</div>
 		<div class="col-md-9 col-sm-12 col-xs-12">
 			<label class="lui_radio">
@@ -767,7 +811,7 @@
 	</div>
 	<div class="item row va-center">
 		<div class="col-md-3 col-sm-12 col-xs-12">
-			<label class="label sm-block col-lg-3 col-md-6 col-sm-12 col-xs-12">Radio</label>
+			<label class="label sm-block md-inline col-lg-3 col-md-6 col-sm-12 col-xs-12">Radio</label>
 		</div>
 		<div class="col-md-9 col-sm-12 col-xs-12">
 			<label class="lui_radio info">
@@ -778,7 +822,7 @@
 	</div>
 	<div class="item row va-center">
 		<div class="col-md-3 col-sm-12 col-xs-12">
-			<label class="label sm-block">Radio</label>
+			<label class="label sm-block md-inline">Radio</label>
 		</div>
 		<div class="col-md-9 col-sm-12 col-xs-12">
 			<label class="lui_radio confirm">
@@ -789,7 +833,7 @@
 	</div>
 	<div class="item row va-center">
 		<div class="col-md-3 col-sm-12 col-xs-12">
-			<label class="label sm-block">Radio</label>
+			<label class="label sm-block md-inline">Radio</label>
 		</div>
 		<div class="col-md-9 col-sm-12 col-xs-12">
 			<label class="lui_radio error">
@@ -800,7 +844,7 @@
 	</div>
 	<div class="item row va-center">
 		<div class="col-md-3 col-sm-12 col-xs-12">
-			<label class="label sm-block">Radio</label>
+			<label class="label sm-block md-inline">Radio</label>
 		</div>
 		<div class="col-md-9 col-sm-12 col-xs-12">
 			<label class="lui_radio warning">
@@ -811,7 +855,7 @@
 	</div>
 	<div class="item row va-center">
 		<div class="col-md-3 col-sm-12 col-xs-12">
-			<label class="label sm-block">Radio simple</label>
+			<label class="label sm-block md-inline">Radio simple</label>
 		</div>
 		<div class="col-md-9 col-sm-12 col-xs-12">
 			<label class="lui_radio">
@@ -822,7 +866,7 @@
 	</div>
 	<div class="item row va-ctop">
 		<div class="col-md-3 col-sm-12 col-xs-12">
-			<label class="label sm-block">Radio list</label>
+			<label class="label sm-block md-inline">Radio list</label>
 		</div>
 		<div class="col-md-9 col-sm-12 col-xs-12">
 			<div class="lui_radio_list">
@@ -849,7 +893,7 @@
 	</div>
 	<div class="item row va-center">
 		<div class="col-md-3 col-sm-12 col-xs-12">
-			<label class="label sm-block">Radio list inline</label>
+			<label class="label sm-block md-inline">Radio list inline</label>
 		</div>
 		<div class="col-md-9 col-sm-12 col-xs-12">
 			<div class="lui_radio_list inline">
@@ -884,152 +928,4 @@
 		</div>
 		
 	</div>
-
 </div>
-
-
-
-
-<!-- JUST TEST -->
-<div class="row">
-
-	<div class="col-xs-12 col-md-6 col-lg-4">
-		<div class="lui_widget">
-			<header>
-				<h2 class="title">Widget box</h2>
-				<div class="actions">
-					<a href="#" class="fa_b_plus"></a>
-					<a href="#" class="fa_b_pencil"></a>
-					<a class="toggle"></a>
-				</div>
-			</header>
-			<div class="content">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-				In faucibus, enim sit amet condimentum posuere, neque 
-				ante tristique libero, vel viverra diam massa lacinia justo. 
-				Class aptent taciti sociosqu ad litora torquent per 
-				conubia nostra, per inceptos himenaeos.
-			</div>
-		</div>
-	</div>
-	<div class="col-xs-12 col-md-6 col-lg-4">
-		<div class="lui_widget primary">
-			<header>
-				<h2 class="title">Widget box</h2>
-				<div class="actions">
-					<a href="#" class="fa_b_plus"></a>
-					<a href="#" class="fa_b_pencil"></a>
-					<a class="toggle"></a>
-				</div>
-			</header>
-			<div class="content">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-				In faucibus, enim sit amet condimentum posuere, neque 
-				ante tristique libero, vel viverra diam massa lacinia justo. 
-				Class aptent taciti sociosqu ad litora torquent per 
-				conubia nostra, per inceptos himenaeos.
-			</div>
-		</div>
-	</div>
-	<div class="col-xs-12 col-md-6 col-lg-4">
-		<div class="lui_widget dark">
-			<header>
-				<h2 class="title">Widget box</h2>
-				<div class="actions">
-					<a href="#" class="fa_b_plus"></a>
-					<a href="#" class="fa_b_pencil"></a>
-					<a class="toggle"></a>
-				</div>
-			</header>
-			<div class="content">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-				In faucibus, enim sit amet condimentum posuere, neque 
-				ante tristique libero, vel viverra diam massa lacinia justo. 
-				Class aptent taciti sociosqu ad litora torquent per 
-				conubia nostra, per inceptos himenaeos.
-			</div>
-		</div>
-	</div>
-
-	<div class="col-12">
-		<div class="lui_message">
-			<a class="close"></a>
-			<div class="title">Basic</div>
-			<p>lorem ipsum dolor info box text</p>
-		</div>
-	</div>
-
-	<div class="col-12">
-		<div class="lui_message confirm">
-			<a class="close"></a>
-			<div class="title">Confirm</div>
-			<p>lorem ipsum dolor info box text</p>
-		</div>
-	</div>
-	<div class="col-12">
-		<div class="lui_message error">
-			<a class="close"></a>
-			<div class="title">Error</div>
-			<p>lorem ipsum dolor info box text</p>
-			<ul>
-				<li>Ipsum in do cillum reprehenderit.</li>
-				<li>Sunt est et officia nulla proident eu labore laboris ipsum consequat do voluptate ex ex.</li>
-			</ul>
-		</div>
-	</div>
-	<div class="col-12">
-		<div class="lui_message warning">
-			<a class="close"></a>
-			<div class="title">Warning</div>
-			<p>lorem ipsum dolor info box text</p>
-			<p>lorem ipsum dolor info box text</p>
-			<ul>
-				<li>Ipsum in do cillum reprehenderit.</li>
-				<li>Sunt est et officia nulla proident eu labore laboris ipsum consequat do voluptate ex ex.</li>
-			</ul>
-		</div>
-	</div>
-	<div class="col-12">
-		<div class="lui_message info">
-			<a class="close"></a>
-			<div class="title">Info</div>
-			<p>lorem ipsum dolor info box text</p>
-		</div>
-	</div>
-
-
-	<div class="col-12">
-		<hr />
-	</div>
-
-	
-
-
-	<div class="col-12">
-		<div class="lui_message">
-			<p>lorem ipsum dolor info box text</p>
-		</div>
-	</div>
-
-	<div class="col-12">
-		<div class="lui_message confirm">
-			<p>lorem ipsum dolor info box text</p>
-		</div>
-	</div>
-	<div class="col-12">
-		<div class="lui_message error">
-			<p>lorem ipsum dolor info box text</p>
-		</div>
-	</div>
-	<div class="col-12">
-		<div class="lui_message warning">
-			<p>lorem ipsum dolor info box text</p>
-		</div>
-	</div>
-	<div class="col-12">
-		<div class="lui_message info">
-			<p>lorem ipsum dolor info box text</p>
-		</div>
-	</div>
-</div>
-		
