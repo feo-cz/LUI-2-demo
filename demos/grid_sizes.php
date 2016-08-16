@@ -62,6 +62,32 @@
 	</div>
 </div>
 <br />
+<h2 class="demo">hiding columns</h2>
+<div class="container demo">
+	<div class="row demo">
+		<div class="col-xs-0 col-md-12 demo_col">
+			.col-xs-0.col-md-12
+			<br />
+			<strong>hidden on mobile</strong>, visible on larger devices
+			<h4>DESKTOP</h4>
+		</div>
+		<div class="col-xs-12 col-md-0 demo_col">
+			.col-xs-12.col-md-0
+			<br />
+			<strong>visible on mobile</strong>, hidden on larget devices
+			<h4>MOBILE</h4>
+		</div>
+	</div>
+</div>
+<br />
+<div class="container demo">
+	<div class="row demo">
+		<div class="col-xs-12 col-sm-0 col-md-12 demo_col">
+			.col-xs-12.col-sm-0.col-md-12
+		</div>
+	</div>
+</div>
+<br />
 <div class="container demo">
 	<div class="row demo">
 		<div class="col-xs-12 col-lg-1 demo_col">
