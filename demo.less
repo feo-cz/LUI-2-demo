@@ -2,7 +2,7 @@
 
 
 body {
-	background: #f3f3f3;
+	background: white;
 	font-family: Arial;
 	padding: 0;
 	margin: 0;
@@ -15,49 +15,48 @@ HEADER
 */
 .demo_header {
 	padding: 40px 15px 20px 15px;
-	background: #202023;
+	background: #f2f2f2;
 	.lui.flexbox.items.align(center);
 
 	header {
 		margin: 0 auto;
 		max-width: 1200px;
 		text-align: center;
-		font-size: 60px;
+		line-height: 1.4;
 		font-weight: bold;
-		color: white;
+		color: #373737;
 
-		span {
+		img.logo {
 			display: block;
-			font-size: 14px;
-			font-weight: normal;
-			color: #03bdfa;
+			margin: 0 auto 35px auto;
 		}
 
 		a.github {
 			font-size: 14px;
-			color: white;
+			color: inherit;
 			text-decoration: none;
 
 			&:before {
-				padding-right: 15px;
+				padding-right: 10px;
 				font-family: FontAwesome;
 				content: "\f09b";
+				color: #1398fe;
 			}
 
 			&:hover {
-				color: #03bdfa;
+				color: #1398fe;
 			}
 		}
 
 		a.home {
+			margin-top: 15px;
 			display: block;
-			padding: 15px;
 			font-size: 14px;
-			color: white;
+			color: inherit;
 			text-decoration: none;
 
 			&:hover {
-				color: #03bdfa;
+				color: #1398fe;
 			}
 		}
 	}
@@ -90,7 +89,6 @@ h2.demo {
 /*---------------*/
 
 .demo_content {
-	background: white;
 	padding-bottom: 50px;
 	
 	section.item {
