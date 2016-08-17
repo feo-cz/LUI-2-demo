@@ -26,11 +26,13 @@
 		<link rel="stylesheet" href="/demo.css" />
 	<?php } ?>
 
-	<script src="/js/jquery/jquery-2.2.0.min.js"></script>
-	<script src="/js/jquery/jquery-ui.js"></script>
+	<script src="/lui2/components/jquery/jquery-2.2.0.min.js"></script>
+	<script src="/lui2/components/jquery/jquery-ui.js"></script>
 
-	<!-- TODO: MOVE INTO COMPONENT FOLDER -->
-	<script src="/lui/js/jquery/ui/ui.js"></script>
+	<!-- COMPONENTS -->
+	<script src="/lui2/components/form/form.js"></script>
+
+
 </head>
 <body>
 
