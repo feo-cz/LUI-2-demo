@@ -88,7 +88,53 @@
 				<td><a href="#" class="lui_button error fa_a_search">button</a></td>
 				<td><a href="#" class="lui_button success fa_a_search">button</a></td>
 			</tr>
-
+			<tr>
+				<td colspan="7"></td>
+			</tr>
+			<tr>
+				<td>small</td>
+				<td><a href="#" class="lui_button small">button</a></td>
+				<td><a href="#" class="lui_button small primary">button</a></td>
+				<td><a href="#" class="lui_button small secondary">button</a></td>
+				<td><a href="#" class="lui_button small info">button</a></td>
+				<td><a href="#" class="lui_button small warning">button</a></td>
+				<td><a href="#" class="lui_button small error">button</a></td>
+				<td><a href="#" class="lui_button small success">button</a></td>
+			</tr>
+			<tr>
+				<td>regular</td>
+				<td><a href="#" class="lui_button regular">button</a></td>
+				<td><a href="#" class="lui_button regular primary">button</a></td>
+				<td><a href="#" class="lui_button regular secondary">button</a></td>
+				<td><a href="#" class="lui_button regular info">button</a></td>
+				<td><a href="#" class="lui_button regular warning">button</a></td>
+				<td><a href="#" class="lui_button regular error">button</a></td>
+				<td><a href="#" class="lui_button regular success">button</a></td>
+			</tr>
+			<tr>
+				<td>big</td>
+				<td><a href="#" class="lui_button big">button</a></td>
+				<td><a href="#" class="lui_button big primary">button</a></td>
+				<td><a href="#" class="lui_button big secondary">button</a></td>
+				<td><a href="#" class="lui_button big info">button</a></td>
+				<td><a href="#" class="lui_button big warning">button</a></td>
+				<td><a href="#" class="lui_button big error">button</a></td>
+				<td><a href="#" class="lui_button big success">button</a></td>
+			</tr>
+			<tr>
+				<td>huge</td>
+				<td><a href="#" class="lui_button huge">button</a></td>
+				<td><a href="#" class="lui_button huge primary">button</a></td>
+				<td><a href="#" class="lui_button huge secondary">button</a></td>
+				<td><a href="#" class="lui_button huge info">button</a></td>
+				<td><a href="#" class="lui_button huge warning">button</a></td>
+				<td><a href="#" class="lui_button huge error">button</a></td>
+				<td><a href="#" class="lui_button huge success">button</a></td>
+			</tr>
+			<tr>
+				<td colspan="4">responsive button (changes size - larger on small devices)</td>
+				<td colspan="3"><a href="#" class="lui_button primary xs-huge sm-big md-regular lg-small">button</a></td>
+			</tr>
 		</table>
 	</div>
 </section>
