@@ -16,7 +16,7 @@
 				<th>success</th>
 			</tr>
 			<tr>
-				<td>default</td>
+				<th>default</th>
 				<td><a href="#" class="lui_button">button</a></td>
 				<td><a href="#" class="lui_button primary">button</a></td>
 				<td><a href="#" class="lui_button secondary">button</a></td>
@@ -26,7 +26,7 @@
 				<td><a href="#" class="lui_button success">button</a></td>
 			</tr>
 			<tr>
-				<td>hover</td>
+				<th>.hover / :hover</th>
 				<td><a href="#" class="lui_button hover">button</a></td>
 				<td><a href="#" class="lui_button hover primary">button</a></td>
 				<td><a href="#" class="lui_button hover secondary">button</a></td>
@@ -36,7 +36,7 @@
 				<td><a href="#" class="lui_button hover success">button</a></td>
 			</tr>
 			<tr>
-				<td>active</td>
+				<th>.active / :active</th>
 				<td><a href="#" class="lui_button active">button</a></td>
 				<td><a href="#" class="lui_button active primary">button</a></td>
 				<td><a href="#" class="lui_button active secondary">button</a></td>
@@ -46,7 +46,7 @@
 				<td><a href="#" class="lui_button active success">button</a></td>
 			</tr>
 			<tr>
-				<td>disabled</td>
+				<th>.disabled</th>
 				<td><a href="#" class="lui_button disabled">button</a></td>
 				<td><a href="#" class="lui_button disabled primary">button</a></td>
 				<td><a href="#" class="lui_button disabled secondary">button</a></td>
@@ -56,7 +56,7 @@
 				<td><a href="#" class="lui_button disabled success">button</a></td>
 			</tr>
 			<tr>
-				<td>force-disabled</td>
+				<th>.force-disabled</th>
 				<td><a href="#" class="lui_button force-disabled">button</a></td>
 				<td><a href="#" class="lui_button force-disabled primary">button</a></td>
 				<td><a href="#" class="lui_button force-disabled secondary">button</a></td>
@@ -66,10 +66,10 @@
 				<td><a href="#" class="lui_button force-disabled success">button</a></td>
 			</tr>
 			<tr>
-				<td colspan="7"></td>
+				<th colspan="8"></th>
 			</tr>
 			<tr>
-				<td>icons before</td>
+				<th>icons before</th>
 				<td><a href="#" class="lui_button fa_b_search">button</a></td>
 				<td><a href="#" class="lui_button primary fa_b_search">button</a></td>
 				<td><a href="#" class="lui_button secondary fa_b_search">button</a></td>
@@ -79,7 +79,7 @@
 				<td><a href="#" class="lui_button success fa_b_search">button</a></td>
 			</tr>
 			<tr>
-				<td>icons after</td>
+				<th>icons after</th>
 				<td><a href="#" class="lui_button fa_a_search">button</a></td>
 				<td><a href="#" class="lui_button primary fa_a_search">button</a></td>
 				<td><a href="#" class="lui_button secondary fa_a_search">button</a></td>
@@ -89,10 +89,10 @@
 				<td><a href="#" class="lui_button success fa_a_search">button</a></td>
 			</tr>
 			<tr>
-				<td colspan="7"></td>
+				<th colspan="8"></th>
 			</tr>
 			<tr>
-				<td>small</td>
+				<th>.small</th>
 				<td><a href="#" class="lui_button small">button</a></td>
 				<td><a href="#" class="lui_button small primary">button</a></td>
 				<td><a href="#" class="lui_button small secondary">button</a></td>
@@ -102,7 +102,7 @@
 				<td><a href="#" class="lui_button small success">button</a></td>
 			</tr>
 			<tr>
-				<td>regular</td>
+				<th>.regular</th>
 				<td><a href="#" class="lui_button regular">button</a></td>
 				<td><a href="#" class="lui_button regular primary">button</a></td>
 				<td><a href="#" class="lui_button regular secondary">button</a></td>
@@ -112,7 +112,7 @@
 				<td><a href="#" class="lui_button regular success">button</a></td>
 			</tr>
 			<tr>
-				<td>big</td>
+				<th>.big</th>
 				<td><a href="#" class="lui_button big">button</a></td>
 				<td><a href="#" class="lui_button big primary">button</a></td>
 				<td><a href="#" class="lui_button big secondary">button</a></td>
@@ -122,7 +122,7 @@
 				<td><a href="#" class="lui_button big success">button</a></td>
 			</tr>
 			<tr>
-				<td>huge</td>
+				<th>.huge</th>
 				<td><a href="#" class="lui_button huge">button</a></td>
 				<td><a href="#" class="lui_button huge primary">button</a></td>
 				<td><a href="#" class="lui_button huge secondary">button</a></td>
@@ -132,8 +132,10 @@
 				<td><a href="#" class="lui_button huge success">button</a></td>
 			</tr>
 			<tr>
-				<td colspan="4">responsive button (changes size - larger on small devices)</td>
-				<td colspan="3"><a href="#" class="lui_button primary xs-huge sm-big md-regular lg-small">button</a></td>
+				<th colspan="8" style="text-align:left;">responsive button (changes size - larger on small devices)</th>
+			</tr>
+			<tr>
+				<td colspan="8" style="text-align:left;"><a href="#" class="lui_button primary xs-huge sm-big md-regular lg-small">button</a></td>
 			</tr>
 		</table>
 	</div>
