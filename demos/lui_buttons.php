@@ -65,6 +65,29 @@
 				<td><a href="#" class="lui_button force-disabled error">button</a></td>
 				<td><a href="#" class="lui_button force-disabled success">button</a></td>
 			</tr>
+			<tr>
+				<td colspan="7"></td>
+			</tr>
+			<tr>
+				<td>icons before</td>
+				<td><a href="#" class="lui_button fa_b_search">button</a></td>
+				<td><a href="#" class="lui_button primary fa_b_search">button</a></td>
+				<td><a href="#" class="lui_button secondary fa_b_search">button</a></td>
+				<td><a href="#" class="lui_button info fa_b_search">button</a></td>
+				<td><a href="#" class="lui_button warning fa_b_search">button</a></td>
+				<td><a href="#" class="lui_button error fa_b_search">button</a></td>
+				<td><a href="#" class="lui_button success fa_b_search">button</a></td>
+			</tr>
+			<tr>
+				<td>icons after</td>
+				<td><a href="#" class="lui_button fa_a_search">button</a></td>
+				<td><a href="#" class="lui_button primary fa_a_search">button</a></td>
+				<td><a href="#" class="lui_button secondary fa_a_search">button</a></td>
+				<td><a href="#" class="lui_button info fa_a_search">button</a></td>
+				<td><a href="#" class="lui_button warning fa_a_search">button</a></td>
+				<td><a href="#" class="lui_button error fa_a_search">button</a></td>
+				<td><a href="#" class="lui_button success fa_a_search">button</a></td>
+			</tr>
 
 		</table>
 	</div>
