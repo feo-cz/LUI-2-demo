@@ -2,106 +2,70 @@
 <h1>Buttons</h1>
 <section class="item">
 	<h3>.lui_button</h3>
-		<div class="content">
-<pre data-title="Usage:">
-class="<span class="highlight">lui_button primary</span>"
-</pre>
 
-		<p>
-			Result:
-			<br />
-			<button class="lui_button primary">.lui_button.primary</button>
-		</p>
+	<div class="content">
+		<table class="overview">
+			<tr>
+				<th></th>
+				<th>default</th>
+				<th>primary</th>
+				<th>secondary</th>
+				<th>info</th>
+				<th>warning</th>
+				<th>error</th>
+				<th>success</th>
+			</tr>
+			<tr>
+				<td>default</td>
+				<td><a href="#" class="lui_button">button</a></td>
+				<td><a href="#" class="lui_button primary">button</a></td>
+				<td><a href="#" class="lui_button secondary">button</a></td>
+				<td><a href="#" class="lui_button info">button</a></td>
+				<td><a href="#" class="lui_button warning">button</a></td>
+				<td><a href="#" class="lui_button error">button</a></td>
+				<td><a href="#" class="lui_button success">button</a></td>
+			</tr>
+			<tr>
+				<td>hover</td>
+				<td><a href="#" class="lui_button hover">button</a></td>
+				<td><a href="#" class="lui_button hover primary">button</a></td>
+				<td><a href="#" class="lui_button hover secondary">button</a></td>
+				<td><a href="#" class="lui_button hover info">button</a></td>
+				<td><a href="#" class="lui_button hover warning">button</a></td>
+				<td><a href="#" class="lui_button hover error">button</a></td>
+				<td><a href="#" class="lui_button hover success">button</a></td>
+			</tr>
+			<tr>
+				<td>active</td>
+				<td><a href="#" class="lui_button active">button</a></td>
+				<td><a href="#" class="lui_button active primary">button</a></td>
+				<td><a href="#" class="lui_button active secondary">button</a></td>
+				<td><a href="#" class="lui_button active info">button</a></td>
+				<td><a href="#" class="lui_button active warning">button</a></td>
+				<td><a href="#" class="lui_button active error">button</a></td>
+				<td><a href="#" class="lui_button active success">button</a></td>
+			</tr>
+			<tr>
+				<td>disabled</td>
+				<td><a href="#" class="lui_button disabled">button</a></td>
+				<td><a href="#" class="lui_button disabled primary">button</a></td>
+				<td><a href="#" class="lui_button disabled secondary">button</a></td>
+				<td><a href="#" class="lui_button disabled info">button</a></td>
+				<td><a href="#" class="lui_button disabled warning">button</a></td>
+				<td><a href="#" class="lui_button disabled error">button</a></td>
+				<td><a href="#" class="lui_button disabled success">button</a></td>
+			</tr>
+			<tr>
+				<td>force-disabled</td>
+				<td><a href="#" class="lui_button force-disabled">button</a></td>
+				<td><a href="#" class="lui_button force-disabled primary">button</a></td>
+				<td><a href="#" class="lui_button force-disabled secondary">button</a></td>
+				<td><a href="#" class="lui_button force-disabled info">button</a></td>
+				<td><a href="#" class="lui_button force-disabled warning">button</a></td>
+				<td><a href="#" class="lui_button force-disabled error">button</a></td>
+				<td><a href="#" class="lui_button force-disabled success">button</a></td>
+			</tr>
 
-		<hr />
-		
-		<h4>Old button names<br /><small>(will be removed in future releases)</small></h4>
-		<p>
-			<button class="lui_button primary">.lui_button.primary</button>
-			<button class="lui_button confirm">.lui_button.confirm</button>
-			<button class="lui_button edit">.lui_button.edit</button>
-			<button class="lui_button delete">.lui_button.delete</button>
-			<button class="lui_button info">.lui_button.info</button>
-			<button class="lui_button info inactive">.lui_button.info.inactive</button>
-		</p>
-		
-		<h4>New button names</h4>
-		
-		<p>
-			<button class="lui_button">.lui_button</button>
-			<button class="lui_button primary">.lui_button.primary</button>
-			<button class="lui_button info">.lui_button.info</button>
-			<button class="lui_button success">.lui_button.success</button>
-			<button class="lui_button danger">.lui_button.danger</button>
-			<button class="lui_button warning">.lui_button.warning</button>
-			<button class="lui_button dark">.lui_button.dark</button>
-			<button class="lui_button transparent">.lui_button.transparent</button>
-		</p>
-		
-		<h4>Inactive buttons (.inactive)</h4>
-		
-		<p>
-			<button class="lui_button inactive">.lui_button</button>
-			<button class="lui_button primary inactive">.lui_button.primary</button>
-			<button class="lui_button info inactive">.lui_button.info</button>
-			<button class="lui_button success inactive">.lui_button.success</button>
-			<button class="lui_button danger inactive">.lui_button.danger</button>
-			<button class="lui_button warning inactive">.lui_button.warning</button>
-			<button class="lui_button dark inactive">.lui_button.dark</button>
-			<button class="lui_button transparent inactive">.lui_button.transparent</button>
-		</p>
-		
-		<hr />
-		
-		<h4>FontAwesome compatible</h4>
-		
-		<p>
-			<button class="lui_button primary fa_b_eye">.lui_button.primary.fa_b_eye</button>
-			<button class="lui_button confirm fa_a_eye">.lui_button.confirm.fa_a_eye</button>
-		</p>
-		
-		<hr />
-		
-		<h4>Sizes</h4>
-						
-<pre data-title="Usage:">
-class="<span class="highlight">lui_button primary big</span>"
-class="<span class="highlight">lui_button primary</span>"
-class="<span class="highlight">lui_button primary small</span>"
-</pre>
-						
-		<p>
-			
-			<button class="lui_button primary big">button text</button>
-			<br />
-			<button class="lui_button primary">button text</button>
-			<br />
-			<button class="lui_button primary small">button text</button>
-		</p>
-						
-<pre data-title="Usage:">
-class="<span class="highlight">lui_button primary fa_b_eye big</span>"
-class="<span class="highlight">lui_button primary fa_b_eye </span>"
-class="<span class="highlight">lui_button primary fa_b_eye small</span>"
-</pre>
-						
-		<p>
-			
-			<button class="lui_button primary fa_b_eye big">.lui_button.primary.fa_b_eye</button>
-			<br />
-			<button class="lui_button primary fa_b_eye">.lui_button.primary.fa_b_eye</button>
-			<br />
-			<button class="lui_button primary fa_b_eye small">.lui_button.primary.fa_b_eye</button>
-		</p>
-
-		<hr />
-
-		<button class="lui_button primary fa_a_eye big">.lui_button.primary.fa_a_eye</button>
-			<br />
-			<button class="lui_button primary fa_a_eye">.lui_button.primary.fa_a_eye</button>
-			<br />
-			<button class="lui_button primary fa_a_eye small">.lui_button.primary.fa_a_eye</button>
-		
-
+		</table>
 	</div>
 </section>
