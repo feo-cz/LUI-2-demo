@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 
-	<?php if(1){ ?>
+	<?php if(0){ ?>
 		<link rel="stylesheet/less" href="/demo.less" />
 		<script>
 			less = {
@@ -21,9 +21,27 @@
 			};
 		</script>
 		<script src="/js/less/less.min.js" type="text/javascript"></script>
-	<?php } else { ?>
-		<!-- COMPILED STYLES -->
-		<link rel="stylesheet" href="/demo.css" />
+
+	<?php } else {
+		$dir = $_SERVER["DOCUMENT_ROOT"];
+		$less_files = "/demo.less";
+
+		$config = array(
+			"cache_dir"		=>	$dir . "/_csscache",
+			"compress"		=>	true,
+			"source_map"	=>	false,
+		);
+
+		include_once($dir . "/lessphp/Autoloader.php");
+		Less_Autoloader::register();
+		$less = new Less_Parser($config->less);
+
+		$less_files = $dir . $less_files;
+		$less_files = array($less_files => "/");
+		$css_file_name = Less_Cache::Get($less_files, $config);
+	
+	?>
+		<link rel="stylesheet" href="/_csscache/<?php echo $css_file_name; ?>" />
 	<?php } ?>
 
 	<script src="/lui2/components/jquery/jquery-2.2.0.min.js"></script>
@@ -31,7 +49,6 @@
 
 	<!-- COMPONENTS -->
 	<script src="/lui2/components/form/form.js"></script>
-	<script src="/lui2/components/accordion/accordion.js"></script>
 
 
 </head>
