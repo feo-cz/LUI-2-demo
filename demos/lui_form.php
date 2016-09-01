@@ -160,29 +160,7 @@ TODO
 <p>
 	You need jQuery and jQuery UI libs to make this working
 </p>
-				
-<pre data-title="Source:">
-&lt;form class=&quot;lui_form&quot;&gt;
-	&lt;div class=&quot;item row va-center&quot;&gt;
-		&lt;div class=&quot;col-md-3 col-sm-12 col-xs-12&quot;&gt;
-			&lt;label class=&quot;label sm-block&quot;&gt;jQuery Select&lt;/label&gt;
-		&lt;/div&gt;
-		&lt;div class=&quot;col-md-3 col-sm-12 col-xs-12&quot;&gt;
-			&lt;div class=&quot;input&quot;&gt;
-				<span class="highlight">
-				&lt;select class=&quot;make_lui_select&quot;&gt;
-					&lt;option&gt;Lorem ipsum dolor option in select&lt;/option&gt;
-					&lt;option&gt;option in select&lt;/option&gt;
-					&lt;option&gt;olololo&lt;/option&gt;
-				&lt;/select&gt;
-				</span>
-			&lt;/div&gt;
-		&lt;/div&gt;
-	&lt;/div&gt;
-&lt;/form&gt;
 
-	
-</pre>
 
 <form class="lui_form">
 	<div class="item row va-center">
@@ -202,67 +180,54 @@ TODO
 </form>
 
 
+<h4>jQuery datepicker</h4>
+
+<p>
+	You need jQuery and jQuery UI libs to make this working
+</p>
+
+
+<form class="lui_form">
+	<div class="item row va-center">
+		<div class="col-md-3 col-sm-12 col-xs-12">
+			<label class="label sm-block md-inline">Datepicker</label>
+		</div>
+		<div class="col-md-3 col-sm-12 col-xs-12">
+			<div class="value">
+				<input type="text" class="make_lui_datepicker" />
+			</div>
+		</div>
+	</div>
+	<div class="item row va-center">
+		<div class="col-md-3 col-sm-12 col-xs-12">
+			<label class="label sm-block md-inline">Datepicker (custom format)</label>
+		</div>
+		<div class="col-md-3 col-sm-12 col-xs-12">
+			<div class="value">
+				<input type="text" class="make_lui_datepicker" data-format="dd.mm.yy" />
+			</div>
+		</div>
+	</div>
+	<div class="item row va-center">
+		<div class="col-md-3 col-sm-12 col-xs-12">
+			<label class="label sm-block md-inline">Datepicker select</label>
+		</div>
+		<div class="col-md-3 col-sm-12 col-xs-12">
+			<div class="value">
+				<input type="text" class="make_lui_datepicker_select" data-format="dd.mm.yy" />
+			</div>
+		</div>
+	</div>
+</form>
+
+
 <h4>Custom Checkboxes</h4>
 
 <p>
 	tabindex is recommended if you want your forms accesible - some people may use TAB
 </p>
-				
-				
-<pre data-title="Source:">
-&lt;form class=&quot;lui_form&quot;&gt;
-	&lt;div class=&quot;item row va-center&quot;&gt;
-		&lt;div class=&quot;col-md-3 col-sm-12 col-xs-12&quot;&gt;
-			&lt;label class=&quot;label sm-block&quot;&gt;Checkbox1&lt;/label&gt;
-		&lt;/div&gt;
-		&lt;div class=&quot;col-md-9 col-sm-12 col-xs-12&quot;&gt;
-			<span class="highlight">
-			&lt;label class=&quot;lui_check&quot;&gt;
-				&lt;input type=&quot;checkbox&quot; tabindex=&quot;0&quot; /&gt;
-				&lt;span&gt;Check this&lt;/span&gt;
-			&lt;/label&gt;
-			</span>
-		&lt;/div&gt;
-	&lt;/div&gt;
-	&lt;div class=&quot;item row va-top&quot;&gt;
-		&lt;div class=&quot;col-md-3 col-sm-12 col-xs-12&quot;&gt;
-			&lt;label class=&quot;label sm-block&quot;&gt;Checks list&lt;/label&gt;
-		&lt;/div&gt;
-		&lt;div class=&quot;col-md-9 col-sm-12 col-xs-12&quot;&gt;
-			<span class="highlight">
-			&lt;div class=&quot;lui_check_list&quot;&gt;
-				&lt;div&gt;
-					&lt;label class=&quot;lui_check confirm&quot;&gt;
-						&lt;input type=&quot;checkbox&quot; tabindex=&quot;0&quot; /&gt;
-						&lt;span&gt;First checkbox&lt;/span&gt;
-					&lt;/label&gt;
-				&lt;/div&gt;
-				&lt;div&gt;
-					&lt;label class=&quot;lui_check delete&quot;&gt;
-						&lt;input type=&quot;checkbox&quot; tabindex=&quot;0&quot; /&gt;
-						&lt;span&gt;Second checkbox&lt;/span&gt;
-					&lt;/label&gt;
-				&lt;/div&gt;
-				&lt;div&gt;
-					&lt;label class=&quot;lui_check confirm&quot;&gt;
-						&lt;input type=&quot;checkbox&quot; tabindex=&quot;0&quot; /&gt;
-						&lt;span&gt;First checkbox&lt;/span&gt;
-					&lt;/label&gt;
-				&lt;/div&gt;
-				&lt;div&gt;
-					&lt;label class=&quot;lui_check delete&quot;&gt;
-						&lt;input type=&quot;checkbox&quot; tabindex=&quot;0&quot; /&gt;
-						&lt;span&gt;Second checkbox&lt;/span&gt;
-					&lt;/label&gt;
-				&lt;/div&gt;
-			&lt;/div&gt;
-			</span>
-		&lt;/div&gt;
-	&lt;/div&gt;
-&lt;/form&gt;
 
 
-</pre>
 
 <form class="lui_form">
 	<div class="item row va-center">
@@ -350,55 +315,7 @@ TODO
 <p>
 	Basicaly same usage as custom checkboxes
 </p>
-				
-<pre data-title="Source:">
-&lt;form class=&quot;lui_form&quot;&gt;
-	&lt;div class=&quot;item row va-center&quot;&gt;
-		&lt;div class=&quot;col-md-3 col-sm-12 col-xs-12&quot;&gt;
-			&lt;label class=&quot;label sm-block&quot;&gt;Radio&lt;/label&gt;
-		&lt;/div&gt;
-		&lt;div class=&quot;col-md-9 col-sm-12 col-xs-12&quot;&gt;
-			<span class="highlight">
-			&lt;label class=&quot;lui_radio&quot;&gt;
-				&lt;input type=&quot;radio&quot; name=&quot;radio&quot; valie=&quot;1&quot; tabindex=&quot;0&quot; /&gt;
-				&lt;span&gt;Radio this&lt;/span&gt;
-			&lt;/label&gt;
-			</span>
-		&lt;/div&gt;
-	&lt;/div&gt;
-	&lt;div class=&quot;item row va-ctop&quot;&gt;
-		&lt;div class=&quot;col-md-3 col-sm-12 col-xs-12&quot;&gt;
-			&lt;label class=&quot;label sm-block&quot;&gt;Radio list&lt;/label&gt;
-		&lt;/div&gt;
-		&lt;div class=&quot;col-md-9 col-sm-12 col-xs-12&quot;&gt;
-			<span class="highlight">
-			&lt;div class=&quot;lui_radio_list&quot;&gt;
-				&lt;div&gt;
-					&lt;label class=&quot;lui_radio warning&quot;&gt;
-						&lt;input type=&quot;radio&quot; name=&quot;radio1&quot; valie=&quot;1&quot; tabindex=&quot;0&quot; /&gt;
-						&lt;span&gt;Radio item 1&lt;/span&gt;
-					&lt;/label&gt;
-				&lt;/div&gt;
-				&lt;div&gt;
-					&lt;label class=&quot;lui_radio confirm&quot;&gt;
-						&lt;input type=&quot;radio&quot; name=&quot;radio1&quot; valie=&quot;2&quot; tabindex=&quot;0&quot; /&gt;
-						&lt;span&gt;Radio item 2&lt;/span&gt;
-					&lt;/label&gt;
-				&lt;/div&gt;
-				&lt;div&gt;
-					&lt;label class=&quot;lui_radio iinfo&quot;&gt;
-						&lt;input type=&quot;radio&quot; name=&quot;radio1&quot; valie=&quot;3&quot; tabindex=&quot;0&quot; /&gt;
-						&lt;span&gt;Radio item 3&lt;/span&gt;
-					&lt;/label&gt;
-				&lt;/div&gt;
-			&lt;/div&gt;
-			</span>
-		&lt;/div&gt;
-	&lt;/div&gt;
-&lt;/form&gt;
 
-	
-</pre>
 
 <form class="lui_form">
 	<div class="item row va-center">
