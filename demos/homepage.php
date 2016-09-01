@@ -43,16 +43,13 @@
 		<a href="/demo/lui_table">Table</a>
 	</li>
 	<li>
-		<a href="/demo/lui_pagebar">Pagebar</a>
-	</li>
-	<li>
 		<a href="/demo/lui_fa_icons">FontAwesome icons</a>
 	</li>
 	<li>
-		<a href="/demo/lui_buttons">Buttons</a>
+		<a href="/demo/lui_buttons">Button</a>
 	</li>
 	<li>
-		<a href="/demo/lui_box">Boxes</a>
+		<a href="/demo/lui_message">Message</a>
 	</li>
 </ul>
 <h1>Mixins</h1>
