@@ -51,37 +51,6 @@ TODO
 
 <h4>Prefix / postfix for inputs</h4>
 
-<p>
-	Input width is computed via javascript when using prefix/postfix settings
-</p>
-
-
-<pre data-title="Source:">
-&lt;form class=&quot;lui_form&quot;&gt;
-	&lt;div class=&quot;item row va-center&quot;&gt;
-		&lt;div class=&quot;col-md-3 col-sm-12 col-xs-12&quot;&gt;
-			&lt;label class=&quot;label sm-block&quot;&gt;Input postfix demo&lt;/label&gt;
-		&lt;/div&gt;
-		&lt;div class=&quot;col-md-5 col-sm-12 col-xs-12&quot;&gt;
-			&lt;div class=&quot;<span class="highlight">input postfix</span>&quot;&gt;
-				&lt;input type=&quot;text&quot; placeholder=&quot;ololololo&quot; /&gt;
-				<span class="highlight">&lt;div class=&quot;lui_postfix&quot;&gt;CZK&lt;/div&gt;</span>
-			&lt;/div&gt;
-		&lt;/div&gt;
-	&lt;/div&gt;
-	&lt;div class=&quot;item row va-center&quot;&gt;
-		&lt;div class=&quot;col-md-3 col-sm-12 col-xs-12&quot;&gt;
-			&lt;label class=&quot;label sm-block&quot;&gt;Input prefix demo&lt;/label&gt;
-		&lt;/div&gt;
-		&lt;div class=&quot;col-md-5 col-sm-12 col-xs-12&quot;&gt;
-			&lt;div class=&quot;<span class="highlight">input prefix</span>&quot;&gt;
-				<span class="highlight">&lt;div class=&quot;lui_prefix&quot;&gt;CZK&lt;/div&gt;</span>
-				&lt;input type=&quot;text&quot; placeholder=&quot;ololololo&quot; /&gt;
-			&lt;/div&gt;
-		&lt;/div&gt;
-	&lt;/div&gt;
-&lt;/form&gt;
-</pre>
 
 
 <form class="lui_form">
@@ -136,7 +105,18 @@ TODO
 		<div class="col-md-5 col-sm-12 col-xs-12">
 			<div class="value postfix">
 				<input type="text" placeholder="ololololo" />
-				<a href="#" class="lui_postfix">add file</a>
+				<a href="#" class="lui_postfix clickable">Clickable</a>
+			</div>
+		</div>
+	</div>
+	<div class="item row va-center">
+		<div class="col-md-3 col-sm-12 col-xs-12">
+			<label class="label sm-block md-inline">Input postfix demo (as button)</label>
+		</div>
+		<div class="col-md-5 col-sm-12 col-xs-12">
+			<div class="value prefix">
+				<a href="#" class="lui_prefix clickable">Clickable</a>
+				<input type="text" placeholder="ololololo" />
 			</div>
 		</div>
 	</div>
