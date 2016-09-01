@@ -50,6 +50,8 @@
 	<!-- COMPONENTS -->
 	<script src="/lui2/components/form/form.js"></script>
 
+	<script src="/lui2/components/accordion/accordion.js"></script>
+
 
 </head>
 <body>
