@@ -51,6 +51,9 @@
 	<li>
 		<a href="/demo/lui_message">Message</a>
 	</li>
+	<li>
+		<a href="/demo/lui_accordion">Accordion</a>
+	</li>
 </ul>
 <h1>Mixins</h1>
 <ul>
